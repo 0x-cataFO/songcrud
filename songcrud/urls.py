@@ -20,4 +20,5 @@ import musicapp
 
 urlpatterns = [
     path('admin/', admin.site.urls),
+    path('', include('musicapp.urls'))
 ]
